@@ -1,0 +1,126 @@
+
+@keyframes show{
+    0%{
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "American Typewriter";
+    opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 0.5s; /* Задержка перед началом */
+    color:white;
+}
+header{
+    background: none;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.button-support{
+    border:0;
+    background: none;
+    transition-duration: 0.3s;
+}
+.link-support{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+.button-support:hover{
+    /*border-bottom: white     2px solid;*/
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.nav-bar{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.github-button{
+    border:0;
+    background: none;
+    transition-duration: 0.3s;
+}
+.link-github{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+.github-button:hover{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.logo-picture{
+    height: 100px;
+    width: 200px;
+}
+.button-downloads{
+    border:0;
+    background: none;
+    transition-duration: 0.3s;
+}
+.link-downloads{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+.button-downloads:hover{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.information{
+    font-size: 48px;
+    height: 500px;
+    width: 1200px;
+    margin-left: 20vh;
+}
+.button-talk{
+    height: 100px;
+    width: 300px;
+    font-size: 36px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    margin-left: 32%;
+}
+.button-talk:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.link-talk{
+    text-decoration: none;
+    color:black;
+
+}
+.img-main{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
