@@ -68,8 +68,8 @@ header{
     transform: scale(1.2);
 }
 .logo-picture{
-    height: 100px;
-    width: 200px;
+    height: 75px;
+    width: 150px;
 }
 .button-downloads{
     border:0;
@@ -89,8 +89,8 @@ header{
     transform: scale(1.2);
 }
 .img-main-info{
-    height: 500px;
-    margin: 20px 10px 10px 30px;
+    height: 350px;
+    margin: 20px 10px 10px 80px;
 }
 .main-info{
     display: flex;
@@ -98,16 +98,17 @@ header{
     align-items: center;
 }
 .text-main-info{
-    font-size: 45px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
+    margin-top: 5vh;
 }
 .hot-keys{
     display: flex;
-    margin:10vh;
+    margin: 0 5vh 0 5vh;
 }
 .hot-keys-text{
-    font-size: 36px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +122,9 @@ header{
     width: 20vh;
     border-radius: 30px;
 
+}
+.hot-keys-img{
+    height: 20vh;
 }
 .link-hot-keys{
     text-decoration: none;
@@ -146,14 +150,14 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10vh;
+    margin: 0 10vh 0 10vh;
 }
 .appImg{
 
-    width: 75vh;
+    width: 50vh;
 }
 .appText{
-    font-size: 36px;
+    font-size: 24px;
     margin-left: 10vh;
 }
 .appInformation{
@@ -226,9 +230,10 @@ footer{
     background: #403939;
     opacity: 0.5;
 }
-footer > *{
+footer > * {
     width: 30%;
     opacity: 0.8;
+
 }
 .navigation{
     display: flex;
@@ -394,8 +399,8 @@ footer > *{
 
 }
 .more-info-block > textarea{
-    width: 50vh;
-    height: 20vh;
+    min-width: 50vh;
+    min-height: 20vh;
     font-size: 24px;
     padding: 10px;
 }
