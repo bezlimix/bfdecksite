@@ -9,7 +9,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: url("1920x1080_stars-glare-black-space.jpeg");
     font-family: "American Typewriter";
     /*opacity:0; !*Элемент полностью прозрачный (невидимый)*!*/
     transition: 1s; /*Скорость перехода состояния элемента*/
@@ -97,7 +97,9 @@ header{
     align-items: center;
 }
 .text-main-info{
-    font-size: 48px;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
 }
 .hot-keys{
     display: flex;
@@ -168,6 +170,24 @@ header{
     border-radius: 30px;
 
 }
+.appButton-main{
+    border: 1px white solid;
+    background: none;
+    color: white;
+    height: 10vh;
+    width: 20vh;
+    border-radius: 30px;
+    margin: 0 0 0 35vh;
+}
+.appButton-main:hover{
+    border: 1px black solid;
+    background: white;
+    color: black;
+    height: 10vh;
+    width: 20vh;
+    border-radius: 30px;
+    transition: 0.3s all;
+}
 .linkApp{
     text-decoration: none;
     color: white;
@@ -183,6 +203,9 @@ header{
     transition: 0.3s all;
 }
 .appButton:hover > a{
+    color: black;
+}
+.appButton-main:hover > a{
     color: black;
 }
 .linkApp:hover{
